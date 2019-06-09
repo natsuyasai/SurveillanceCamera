@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
      */
     fun onClickBtnStart(v: View?) {
         var intent = Intent(this, CameraView::class.java)
+        intent.putExtra(Constant.IPAddrIntent, etIPAddr.text.toString())
         startActivity(intent)
-
     }
 }
