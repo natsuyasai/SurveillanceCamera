@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SurveillanceCamera</string>
+    <string name="btn_start">Start</string>
+    <string name="tv_ipaddr">127.0.0.1:50000</string>
+</resources>
